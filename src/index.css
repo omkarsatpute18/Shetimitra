@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #16a34a;
+    --color-primary-light: #22c55e;
+    --color-primary-dark: #15803d;
+
+    --color-earth-50: #fdf8f6;
+    --color-earth-100: #f2e8e5;
+    --color-earth-200: #eaddd7;
+    --color-earth-300: #e0cec7;
+    --color-earth-400: #d2bab0;
+    --color-earth-500: #bfa094;
+    --color-earth-600: #a18072;
+    --color-earth-700: #977669;
+    --color-earth-800: #846358;
+    --color-earth-900: #43302b;
+
+    --color-soil-50: #faf6f1;
+    --color-soil-100: #f1e7d9;
+    --color-soil-200: #e3cfb4;
+    --color-soil-300: #d3b087;
+    --color-soil-400: #c48f5e;
+    --color-soil-500: #b87947;
+    --color-soil-600: #a6623c;
+    --color-soil-700: #8a4b33;
+    --color-soil-800: #713e2f;
+    --color-soil-900: #5d3528;
+
+    --color-crop-50: #f6fbea;
+    --color-crop-100: #eaf5d1;
+    --color-crop-200: #d6eba7;
+    --color-crop-300: #b8dc72;
+    --color-crop-400: #97c744;
+    --color-crop-500: #7aaa26;
+    --color-crop-600: #5e851c;
+    --color-crop-700: #49661a;
+    --color-crop-800: #3c5219;
+    --color-crop-900: #344518;
+
+    --color-sky-50: #f0f9ff;
+    --color-sky-100: #e0f2fe;
+    --color-sky-200: #bae6fd;
+    --color-sky-300: #7dd3fc;
+    --color-sky-400: #38bdf8;
+    --color-sky-500: #0ea5e9;
+    --color-sky-600: #0284c7;
+    --color-sky-700: #0369a1;
+    --color-sky-800: #075985;
+    --color-sky-900: #0c4a6e;
+
+    --color-sun-50: #fffbeb;
+    --color-sun-100: #fef3c7;
+    --color-sun-200: #fde68a;
+    --color-sun-300: #fcd34d;
+    --color-sun-400: #fbbf24;
+    --color-sun-500: #f59e0b;
+    --color-sun-600: #d97706;
+    --color-sun-700: #b45309;
+    --color-sun-800: #92400e;
+    --color-sun-900: #78350f;
+
+    --border-subtle: #f3f4f6;
+    --border-default: #e5e4e7;
+    --border-strong: #d1d5db;
+
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-default: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-subtle: 0 1px 2px rgb(0 0 0 / 0.04), 0 1px 3px rgb(0 0 0 / 0.06);
+
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+    --font-size-5xl: 3rem;
+    --font-size-6xl: 3.75rem;
+
+    font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    color: #1f2937;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: var(--border-default);
+  }
+}

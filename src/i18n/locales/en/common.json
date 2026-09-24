@@ -1,0 +1,69 @@
+{
+  "appTitle": "ShetiMitra",
+  "tagline": "Farmer's Companion — Best Rates, Direct Buyers & 100% Safe Payments",
+  "nav": {
+    "dashboard": "Home (Dashboard)",
+    "marketPrices": "Mandi Prices",
+    "sellProduce": "Sell Produce",
+    "buyers": "Direct Buyers",
+    "lotFormation": "Group Selling with Neighbors",
+    "transport": "Shared Truck / Logistics",
+    "fpoNetwork": "FPO Network",
+    "storage": "Cold & Dry Storage",
+    "msp": "Govt MSP Rates",
+    "schemes": "Govt Schemes",
+    "payments": "Bank Payments",
+    "aiAssistant": "Agri Advisor (AI)",
+    "notifications": "Alerts & Notifications",
+    "profile": "My Profile",
+    "findProduce": "Find Produce",
+    "postDemand": "Post Demand",
+    "orders": "Orders",
+    "farmers": "Farmers",
+    "lots": "Group Lots",
+    "members": "Members",
+    "produce": "Produce",
+    "reports": "Reports",
+    "requests": "Transport Requests",
+    "routes": "Routes",
+    "activeTrips": "Active Trips",
+    "earnings": "Earnings"
+  },
+  "roles": {
+    "farmer": "Farmer",
+    "buyer": "Buyer / Trader",
+    "fpo": "FPO",
+    "transport": "Truck Operator"
+  },
+  "actions": {
+    "startSelling": "Start Selling",
+    "explorePrices": "Check Prices",
+    "view": "View",
+    "sellNow": "Sell Now",
+    "compare": "Compare",
+    "call": "Call Now",
+    "whatsapp": "WhatsApp",
+    "listen": "Listen (Audio)",
+    "share": "Share"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong, please retry",
+    "retry": "Retry",
+    "success": "Success!",
+    "safeGuarantee": "100% Safe Bank Guarantee",
+    "cashInHand": "Net Cash in Hand after transport"
+  },
+  "metrics": {
+    "listedProduce": "Listed Produce",
+    "buyerRequests": "Buyer Demands",
+    "bestPrice": "Best Market Price",
+    "msp": "Govt MSP",
+    "pendingPayments": "Expected Money",
+    "activeTransport": "Available Trucks"
+  },
+  "landing": {
+    "hero": "Get Better Farm Rates. Sell Direct to Buyers. Safe Bank Payments.",
+    "tagline": "Smart Market Linkage for Farmers"
+  }
+}
